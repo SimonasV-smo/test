@@ -8,3 +8,6 @@ div {
   height: 200px;
   margin: 0 auto;
 }
+p {
+  font-size: large;
+}
