@@ -14,8 +14,9 @@ document
     })
       .then((response) => response.json())
       .then((data) => {
-        document.getElementById("response").innerText =
-          "User added: " + JSON.stringify(data);
+        document.getElementById(
+          "response"
+        ).innerText = `User added: ${data.Name}`;
       })
       .catch((error) => {
         console.error("Error:", error);
